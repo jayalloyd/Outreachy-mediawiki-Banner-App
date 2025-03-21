@@ -2,6 +2,8 @@ Interactive Banner Design Frontend
 
 This project, developed as part of the Outreachy Application Contribution Period, provides a robust and user-friendly frontend web application for designing interactive banners. Leveraging modern web technologies, this application empowers users to create visually appealing and dynamic banners with ease.
 
+Live Demo: https://outreachy-mediawiki-banner-app-pearl.vercel.app/
+
 Key Technologies:
 
 React: A powerful JavaScript library for building dynamic and responsive user interfaces, ensuring a smooth and interactive user experience.
@@ -14,7 +16,18 @@ Vitest: A fast and reliable unit testing framework, guaranteeing code quality an
 
 Core Features:
 
-Intuitive and Interactive User Interface: A visually driven interface that simplifies banner customization, allowing users to effortlessly modify elements like text, images, and colors. Real-time Preview: Instant feedback on design changes, enabling users to visualize their banners as they are being created. Responsive Design: Ensures seamless banner creation and viewing across various screen sizes and devices, thanks to Bootstrap's responsive grid system. Efficient State Management: Utilizes React's state management capabilities for optimal performance and a smooth user experience. Comprehensive Unit Testing: Employing Vitest, the application's codebase is thoroughly tested to maintain reliability and prevent regressions. Getting Started:
+Intuitive and Interactive User Interface: A visually driven interface that simplifies banner customization, allowing users to effortlessly modify elements like text, images, and colors.
+
+Real-time Preview: Instant feedback on design changes, enabling users to visualize their banners as they are being created.
+
+Responsive Design: Ensures seamless banner creation and viewing across various screen sizes and devices, thanks to Bootstrap's responsive grid system.
+
+Efficient State Management: Utilizes React's state management capabilities for optimal performance and a smooth user experience. 
+
+Comprehensive Unit Testing: Employing Vitest, the application's codebase is thoroughly tested to maintain reliability and prevent regressions.
+
+
+Getting Started:
 
 To experience the Interactive Banner Design Frontend locally, follow these steps:
 

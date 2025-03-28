@@ -6,7 +6,9 @@ import BannerControls from "./BannerControls";
 const defaultValues = {
   bgColor: "#007bff",
   bannerText: "I Love to do Code, Create & Innovate.",
+  bannerTextColor:"#19191A",
   bannerCaption: "Write code. Change the world.",
+  bannerCaptionColor:"#19191A",
   bannerImage: "",
   bannerTextFont: "Arial",
   bannerTextSize: "24px",
@@ -19,8 +21,8 @@ const BannerForm = () => {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setFormData((prev) => ({
-      ...prev,
+    setFormData((formData) => ({
+      ...formData,
       [name]: value,
     }));
   };
@@ -30,8 +32,8 @@ const BannerForm = () => {
     if (file) {
       const reader = new FileReader();
       reader.onloadend = () => {
-        setFormData((prev) => ({
-          ...prev,
+        setFormData((formData) => ({
+          ...formData,
           bannerImage: reader.result,
         }));
       };
@@ -46,8 +48,10 @@ const BannerForm = () => {
       bannerCaption: "",
       bannerImage: "",
       bannerTextFont: "Arial",
+      bannerTextColor:"#19191A",
       bannerTextSize: "24px",
       bannerCaptionFont: "Verdana",
+      bannerCaptionColor:"19191A",
       bannerCaptionSize: "18px",
     });
   };

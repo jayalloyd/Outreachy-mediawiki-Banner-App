@@ -32,12 +32,21 @@ const BannerControls = ({ formData, handleChange, handleImageUpload, handleReset
             className="form-control fw-bold"
             id="bannerText"
             name="bannerText"
+            // color={formData.bannerTextColor}
             value={formData.bannerText}
             onChange={handleChange}
-            placeholder="Enter banner title"
-          />
-        </div>
-
+          /></div>
+        <div className="mb-3">
+           <label className="form-label" htmlFor="bannerTextColor"></label>
+          <input
+            type="color"
+            className="form-control form-control-color"
+            id="bannerTextColor"
+            name="bannerTextColor"
+            value={formData.bannerTextColor}
+            onChange={handleChange}
+          /></div>
+        
         
         <div className="mb-3 d-flex gap-3">
           <div>
@@ -67,6 +76,16 @@ const BannerControls = ({ formData, handleChange, handleImageUpload, handleReset
             placeholder="Enter banner caption"
           />
         </div>
+        <div className="mb-3">
+           <label className="form-label" htmlFor="bannerCaptionColor"></label>
+          <input
+            type="color"
+            className="form-control form-control-color"
+            id="bannerCaptionColor"
+            name="bannerCaptionColor"
+            value={formData.bannerCaptionColor}
+            onChange={handleChange}
+          /></div>
 
         <div className="mb-3 d-flex gap-3">
           <div>

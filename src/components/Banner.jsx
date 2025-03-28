@@ -14,6 +14,7 @@ const Banner = ({ formData }) => {
         backgroundPosition: "center",
         margin: "0", 
         padding: "0",
+        
       }}
     >
       <h1
@@ -21,6 +22,8 @@ const Banner = ({ formData }) => {
           fontFamily: formData.bannerTextFont,
           fontSize: formData.bannerTextSize,
           fontWeight: "bold",
+          color:formData.bannerTextColor,
+          backgroundColor: formData.bgColor,
         }}
       >
         {formData.bannerText}
@@ -29,6 +32,8 @@ const Banner = ({ formData }) => {
         style={{
           fontFamily: formData.bannerCaptionFont,
           fontSize: formData.bannerCaptionSize,
+         color:formData.bannerCaptionColor,
+          backgroundColor: formData.bgColor,
         }}
       >
         {formData.bannerCaption}

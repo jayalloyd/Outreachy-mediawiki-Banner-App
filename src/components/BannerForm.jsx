@@ -4,12 +4,12 @@ import Banner from "./Banner";
 import BannerControls from "./BannerControls";
 
 const defaultValues = {
-  bgColor: "#007bff",
+  bgColor: " ",
   bannerText: "I Love to do Code, Create & Innovate.",
   bannerTextColor:"#19191A",
   bannerCaption: "Write code. Change the world.",
   bannerCaptionColor:"#19191A",
-  bannerImage: "",
+  bannerImage: "https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   bannerTextFont: "Arial",
   bannerTextSize: "24px",
   bannerCaptionFont: "Verdana",

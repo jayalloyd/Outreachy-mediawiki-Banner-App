@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+/* Default light mode */
+body.light-mode {
+  background-color: white;
+  color: black;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Ensure all text updates with the mode */
+.App {
+  text-align: center;
+}

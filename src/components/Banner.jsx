@@ -6,7 +6,7 @@ const Banner = ({ formData }) => {
     <div
       className="text-white text-center d-flex flex-column align-items-center justify-content-center"
       style={{
-        width: "60vw", 
+        width: "90vw", 
         height: "30vh", 
         backgroundColor: formData.bgColor,
         backgroundImage: `url(${formData.bannerImage})`,

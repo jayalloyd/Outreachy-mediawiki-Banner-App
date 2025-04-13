@@ -1,8 +1,56 @@
-Interactive Banner Design Frontend
+Interactive Banner Design 
 
 This project (microtask for T388234 - https://phabricator.wikimedia.org/T388248), developed as part of the Outreachy Application Contribution Period, provides a robust and user-friendly frontend web application for designing interactive banners. Leveraging modern web technologies, this application empowers users to create visually appealing and dynamic banners with ease.
 
 Live Demo: https://outreachy-mediawiki-banner-app-pearl.vercel.app/
+
+✨ Features
+🎨 Background Options: Upload image or select a solid color
+
+📝 Custom Text & Caption: Choose font family, size, and color
+
+🌓 Dark / Light Mode Toggle
+
+🔄 Reset All or Reset to Default
+
+Usage
+Choose Background:
+
+Upload an image OR
+
+Select a solid color
+
+Edit Banner Text:
+
+Change heading and caption
+
+Pick fonts from Options
+
+Customize font size and color
+
+Toggle Theme:
+
+Switch between dark and light mode
+
+Reset Options:
+
+Reset All – Clears all changes
+
+Reset to Default – Restores default layout and styles
+
+
+Available Actions
+
+Button	Functionality
+
+DownLoad Banner- downloads banner 
+
+Reset All	Clears all user inputs and customizations
+
+Reset to Default	Returns layout to original state
+
+Toggle Mode	Switches between dark/light themes
+
 
 Key Technologies:
 
@@ -31,17 +79,26 @@ Getting Started:
 
 To experience the Interactive Banner Design Frontend locally, follow these steps:
 
-Clone the Repository: Bash
+Clone the Repository: 
 
-git clone [repository_url] (Replace [repository_url] with the actual repository URL.) Install Dependencies: Bash
+git clone https://github.com/jayalloyd/Outreachy-mediawiki-Banner-App
 
-npm install Start the Development Server: Bash
+cd Outreachy-mediawiki-Banner-App
 
-npm run dev This command will launch the application in your default web browser, allowing you to begin designing interactive banners. Project Structure:
+npm install
+
+npm run dev   # Start development server
+
+
+ This command will launch the application in your default web browser, allowing you to begin designing interactive banners. 
+ 
+ 
+ Project Structure:
 
 src/: Contains the main application source code.
 
 assets/: Images, icons, and other static assets.
+
 public/: Static files served directly by the browser.
 
 tests/: Unit and integration tests
@@ -52,13 +109,19 @@ react: Core React library for building UI components.
 
 bootstrap: CSS framework for responsive design.
 
+html2Canvas
+
 vitest: Unit testing framework.
 
 Scripts:
 
 npm run dev: Starts the development server.
+
 npm run build: Builds the production-ready application.
+
 npm run test: Runs unit tests.
+
+
 
 # React + Vite
 

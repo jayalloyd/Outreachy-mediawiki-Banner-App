@@ -4,7 +4,7 @@ import React from "react";
 const fontFamilies = ["Arial", "Verdana", "Courier New", "Georgia", "Times New Roman", "Roboto", "Monospace"];
 const fontSizes = ["16px", "18px", "20px", "24px", "28px", "32px", "36px"];
 
-const BannerControls = ({ formData, handleChange, handleImageUpload, handleResetAll, handleResetDefault }) => {
+const BannerControls = ({ formData, handleChange, handleImageUpload, handleResetAll, handleResetDefault ,downLoadImage}) => {
   return (
     <div className="container p-4 border rounded bg-light">
    
@@ -114,10 +114,13 @@ const BannerControls = ({ formData, handleChange, handleImageUpload, handleReset
           />
         </div>
 
-    
+       
         <div className="d-flex justify-content-between">
           <button type="button" onClick={handleResetAll} className="btn btn-danger">
             Reset All
+          </button>
+          <button type="button" onClick={downLoadImage} className="btn btn-primary">
+           Download Banner
           </button>
           <button type="button" onClick={handleResetDefault} className="btn btn-secondary">
             Reset to Default

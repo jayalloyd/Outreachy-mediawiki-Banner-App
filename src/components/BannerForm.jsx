@@ -1,5 +1,7 @@
 
 import React, { useState } from "react";
+import  { useRef } from 'react';
+import html2canvas from 'html2canvas';
 import Banner from "./Banner";
 import BannerControls from "./BannerControls";
 
@@ -60,6 +62,23 @@ const BannerForm = () => {
     setFormData(defaultValues);
   };
 
+  const downLoadImage = () => {
+    const target = document.getElementById('banner');
+
+    if (!target) {
+      console.error('Element not found');
+      return;
+    }
+
+    html2canvas(target, { useCORS: true }).then(canvas => {
+      const link = document.createElement('a');
+      link.download = 'banner.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    }).catch(err => {
+      console.error('html2canvas error:', err);
+    });
+  };
   return (
     <div>
       
@@ -73,6 +92,7 @@ const BannerForm = () => {
           handleImageUpload={handleImageUpload}
           handleResetAll={handleResetAll}
           handleResetDefault={handleResetDefault}
+          downLoadImage={downLoadImage}
         />
       </div>
     </div>

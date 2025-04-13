@@ -4,7 +4,7 @@ import React from "react";
 const Banner = ({ formData }) => {
   return (
     <div
-      className="text-white text-center d-flex flex-column align-items-center justify-content-center"
+      className="text-white text-center d-flex flex-column align-items-center justify-content-center" id="banner"
       style={{
         width: "90vw", 
         height: "30vh", 

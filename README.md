@@ -4,117 +4,126 @@ This project (microtask for T388234 - https://phabricator.wikimedia.org/T388248)
 
 Live Demo: https://outreachy-mediawiki-banner-app-pearl.vercel.app/
 
+🖼️ Screenshots
 
 ![banner](https://github.com/user-attachments/assets/13c05313-a6e5-4b6f-b3f6-956bca295633)
 
-FEATURES 
-
-•	BACKGROUND OPTIONS: UPLOAD IMAGE OR SELECT A SOLID COLOR
-
-•	CUSTOM TEXT & CAPTION: CHOOSE FONT FAMILY, SIZE, AND COLOR
-
-•	DARK / LIGHT MODE TOGGLE
-
-•	RESET ALL OR RESET TO DEFAULT
 
 
+## 🔥 Features
 
-USAGE CHOOSE BACKGROUND:
+- **🖼 Background Options**  
+  Upload a custom image or select a solid color as the banner background.
+
+- **✍️ Custom Text & Caption**  
+  Edit the banner heading and caption with options to choose font family, font size, and font color.
+
+- **🌗 Dark / Light Mode Toggle**  
+  Seamlessly switch between light and dark themes.
+
+- **♻️ Reset Controls**  
+  - **Reset All** – Clears all user inputs and customizations  
+  - **Reset to Default** – Restores the banner to the original layout and style
+
+- **📥 Download Option**  
+  Download the fully customized banner as an image file.
+
+---
+
+## 🧑‍💻 How to Use
+
+### 1. 🎨 Choose Background
+- Upload an image **or**
+- Select a solid color using the color picker
+
+### 2. ✏️ Edit Banner Content
+- Modify the banner **title** and **caption**
+- Pick a **font**, set the **font size**, and apply a **text color**
+
+### 3. 🌙 Toggle Theme
+- Switch between **dark** and **light** mode using a single toggle
+
+### 4. 🔄 Reset Options
+- **Reset All**: Clears all changes made by the user  
+- **Reset to Default**: Reverts banner to default layout and settings
+
+### 5. 📥 Download
+- Save the current banner design as an image with one click
+
+---
+
+## ⚙️ Available Actions
+
+| Action              | Description                                     |
+|---------------------|-------------------------------------------------|
+| **Download Banner** | Downloads the customized banner as an image     |
+| **Reset All**       | Clears all user inputs and selections           |
+| **Reset to Default**| Returns banner to its initial design            |
+| **Toggle Mode**     | Switches between dark and light UI themes       |
+
+---
+
+## 🛠 Tech Stack
+
+| Technology   | Role                                             |
+|--------------|--------------------------------------------------|
+| **React**    | UI library for building dynamic, component-based interfaces |
+| **Bootstrap**| CSS framework for responsive, mobile-first layout and styling |
+| **Vitest**   | Lightweight, fast test runner for unit testing React components |
+
+---
+
+## 📁 Project Structure
+
+```
+/public
+  └── vite.svg            # Static assets
+
+/src
+  ├── /assets             # Images and media assets
+  ├── /components         # Reusable UI components
+  │   ├── Banner.jsx
+  │   ├── Banner.test.jsx
+  │   ├── BannerControls.jsx
+  │   └── BannerControls.test.jsx
+  ├── /styles             # Global stylesheets (if needed)
+  ├── App.jsx             # Main application component
+  ├── App.test.jsx        # App test file
+  └── main.jsx            # Entry point
+
+/tests
+  └── setupTests.js       # Vitest configuration
+```
+
+---
+
+## 🌟 Highlights
+
+- **Intuitive Interface** – A clean, visual editing experience using Bootstrap
+- **Real-Time Preview** – Instant feedback as you customize your banner
+- **Responsive Design** – Fully functional on all screen sizes and devices
+- **State Management** – Efficient use of React hooks for a smooth UX
+- **Test Coverage** – Core functionality tested with Vitest to ensure reliability
 
 
-•	UPLOAD AN IMAGE OR
 
-•	SELECT A SOLID COLOR
+📖 Getting Started
 
-•	EDIT BANNER TEXT:
+Clone the Repository
 
-•	CHANGE HEADING AND CAPTION
+git clone https://github.com/jayalloyd/Outreachy-mediawiki-Banner-App
+cd Outreachy-mediawiki-Banner-App
 
-•	PICK FONTS FROM OPTIONS
-
-•	CUSTOMIZE FONT SIZE AND COLOR
-
-•	TOGGLE THEME:
-
-•	SWITCH BETWEEN DARK AND LIGHT MODE
-
-•	RESET OPTIONS:
-
-•	RESET ALL – CLEARS ALL CHANGES
-
-•	RESET TO DEFAULT – RESTORES DEFAULT LAYOUT AND STYLES
-
-Available Actions
-
-Button Functionality
-
-•	Download Banner- downloads the banner
-
-•	Reset All Clears- all user inputs and customizations
-
-•	Reset to Default- Returns layout to original state
-
-•	Toggle Mode -Switches between dark/light themes
-
-Key Technologies:
-
-•	React: A powerful JavaScript library for building dynamic and responsive user interfaces, ensuring a smooth and interactive user experience.
-
-•	JavaScript (ES6+): The core programming language, driving the application's logic and functionality.
-
-•	Bootstrap: A widely-used CSS framework, providing a responsive and consistent design system, ensuring cross-device compatibility.
-
-•	Vitest: A fast and reliable unit testing framework, guaranteeing code quality and application stability.
-
-Core Features:
-
-•	Intuitive and Interactive User Interface: A visually driven interface that simplifies banner customization, allowing users to effortlessly modify elements like text, images, and colors.
-
-•	Real-time Preview: Instant feedback on design changes, enabling users to visualize their banners as they are being created.
-
-•	Responsive Design: Ensures seamless banner creation and viewing across various screen sizes and devices, thanks to Bootstrap's responsive grid system.
-
-•	Efficient State Management: Utilizes React's state management capabilities for optimal performance and a smooth user experience.
-
-•	Comprehensive Unit Testing: Employing Vitest, the application's codebase is thoroughly tested to maintain reliability and prevent regressions.
-
-Getting Started:
-
-•	To experience the Interactive Banner Design Frontend locally, follow these steps:
-
-•	Clone the Repository:
-
-•	git clone https://github.com/jayalloyd/Outreachy-mediawiki-Banner-App
-
-•	cd Outreachy-mediawiki-Banner-App
-
-•	npm install
-
-•	npm run dev # Start development server
-
-•	This command will launch the application in your default web browser, allowing you to begin designing interactive banners.
-
-Project Structure:
-
-•	src/: Contains the main application source code.
-
-•	assets/: Images, icons, and other static assets.
-
-•	public/: Static files served directly by the browser.
-
-•	tests/: Unit and integration tests
+Install Dependencies
 
 
-  Dependencies
+npm install
+Run the App
 
-•	react: Core React library for building UI components.
 
-•	bootstrap: CSS framework for responsive design.
-
-•	html2Canvas
-
-•	vitest: Unit testing framework.
-
+npm run dev
+Open in Browser
+Visit http://localhost:5173 to start customizing your banner
 
 
 

@@ -7,39 +7,42 @@ Live Demo: https://outreachy-mediawiki-banner-app-pearl.vercel.app/
 
 ![banner](https://github.com/user-attachments/assets/13c05313-a6e5-4b6f-b3f6-956bca295633)
 
-Features 
+FEATURES 
 
-•	Background Options: Upload image or select a solid color
+•	BACKGROUND OPTIONS: UPLOAD IMAGE OR SELECT A SOLID COLOR
 
-•	Custom Text & Caption: Choose font family, size, and color
+•	CUSTOM TEXT & CAPTION: CHOOSE FONT FAMILY, SIZE, AND COLOR
 
-•	Dark / Light Mode Toggle
+•	DARK / LIGHT MODE TOGGLE
 
-•	Reset All or Reset to Default
+•	RESET ALL OR RESET TO DEFAULT
 
-Usage Choose Background:
 
-•	Upload an image OR
 
-•	Select a solid color
+USAGE CHOOSE BACKGROUND:
 
-•	Edit Banner Text:
 
-•	Change heading and caption
+•	UPLOAD AN IMAGE OR
 
-•	Pick fonts from Options
+•	SELECT A SOLID COLOR
 
-•	Customize font size and color
+•	EDIT BANNER TEXT:
 
-•	Toggle Theme:
+•	CHANGE HEADING AND CAPTION
 
-•	Switch between dark and light mode
+•	PICK FONTS FROM OPTIONS
 
-•	Reset Options:
+•	CUSTOMIZE FONT SIZE AND COLOR
 
-•	Reset All – Clears all changes
+•	TOGGLE THEME:
 
-•	Reset to Default – Restores default layout and styles
+•	SWITCH BETWEEN DARK AND LIGHT MODE
+
+•	RESET OPTIONS:
+
+•	RESET ALL – CLEARS ALL CHANGES
+
+•	RESET TO DEFAULT – RESTORES DEFAULT LAYOUT AND STYLES
 
 Available Actions
 
@@ -101,7 +104,8 @@ Project Structure:
 
 •	tests/: Unit and integration tests
 
-Dependencies
+
+  Dependencies
 
 •	react: Core React library for building UI components.
 
@@ -110,6 +114,8 @@ Dependencies
 •	html2Canvas
 
 •	vitest: Unit testing framework.
+
+
 
 
 

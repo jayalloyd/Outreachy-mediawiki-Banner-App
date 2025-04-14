@@ -4,6 +4,9 @@ This project (microtask for T388234 - https://phabricator.wikimedia.org/T388248)
 
 Live Demo: https://outreachy-mediawiki-banner-app-pearl.vercel.app/
 
+
+![banner](https://github.com/user-attachments/assets/13c05313-a6e5-4b6f-b3f6-956bca295633)
+
 Features 
 
 •	Background Options: Upload image or select a solid color
@@ -107,6 +110,10 @@ Dependencies
 •	html2Canvas
 
 •	vitest: Unit testing framework.
+
+
+
+
 
 
 # React + Vite

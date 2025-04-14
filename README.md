@@ -4,123 +4,109 @@ This project (microtask for T388234 - https://phabricator.wikimedia.org/T388248)
 
 Live Demo: https://outreachy-mediawiki-banner-app-pearl.vercel.app/
 
-✨ Features
-🎨 Background Options: Upload image or select a solid color
+Features 
 
-📝 Custom Text & Caption: Choose font family, size, and color
+•	Background Options: Upload image or select a solid color
 
-🌓 Dark / Light Mode Toggle
+•	Custom Text & Caption: Choose font family, size, and color
 
-🔄 Reset All or Reset to Default
+•	Dark / Light Mode Toggle
 
-Usage
-Choose Background:
+•	Reset All or Reset to Default
 
-Upload an image OR
+Usage Choose Background:
 
-Select a solid color
+•	Upload an image OR
 
-Edit Banner Text:
+•	Select a solid color
 
-Change heading and caption
+•	Edit Banner Text:
 
-Pick fonts from Options
+•	Change heading and caption
 
-Customize font size and color
+•	Pick fonts from Options
 
-Toggle Theme:
+•	Customize font size and color
 
-Switch between dark and light mode
+•	Toggle Theme:
 
-Reset Options:
+•	Switch between dark and light mode
 
-Reset All – Clears all changes
+•	Reset Options:
 
-Reset to Default – Restores default layout and styles
+•	Reset All – Clears all changes
 
+•	Reset to Default – Restores default layout and styles
 
 Available Actions
 
-Button	Functionality
+Button Functionality
 
-DownLoad Banner- downloads banner 
+•	Download Banner- downloads the banner
 
-Reset All	Clears all user inputs and customizations
+•	Reset All Clears- all user inputs and customizations
 
-Reset to Default	Returns layout to original state
+•	Reset to Default- Returns layout to original state
 
-Toggle Mode	Switches between dark/light themes
-
+•	Toggle Mode -Switches between dark/light themes
 
 Key Technologies:
 
-React: A powerful JavaScript library for building dynamic and responsive user interfaces, ensuring a smooth and interactive user experience.
+•	React: A powerful JavaScript library for building dynamic and responsive user interfaces, ensuring a smooth and interactive user experience.
 
-JavaScript (ES6+): The core programming language, driving the application's logic and functionality.
+•	JavaScript (ES6+): The core programming language, driving the application's logic and functionality.
 
-Bootstrap: A widely-used CSS framework, providing a responsive and consistent design system, ensuring cross-device compatibility.
+•	Bootstrap: A widely-used CSS framework, providing a responsive and consistent design system, ensuring cross-device compatibility.
 
-Vitest: A fast and reliable unit testing framework, guaranteeing code quality and application stability.
+•	Vitest: A fast and reliable unit testing framework, guaranteeing code quality and application stability.
 
 Core Features:
 
-Intuitive and Interactive User Interface: A visually driven interface that simplifies banner customization, allowing users to effortlessly modify elements like text, images, and colors.
+•	Intuitive and Interactive User Interface: A visually driven interface that simplifies banner customization, allowing users to effortlessly modify elements like text, images, and colors.
 
-Real-time Preview: Instant feedback on design changes, enabling users to visualize their banners as they are being created.
+•	Real-time Preview: Instant feedback on design changes, enabling users to visualize their banners as they are being created.
 
-Responsive Design: Ensures seamless banner creation and viewing across various screen sizes and devices, thanks to Bootstrap's responsive grid system.
+•	Responsive Design: Ensures seamless banner creation and viewing across various screen sizes and devices, thanks to Bootstrap's responsive grid system.
 
-Efficient State Management: Utilizes React's state management capabilities for optimal performance and a smooth user experience. 
+•	Efficient State Management: Utilizes React's state management capabilities for optimal performance and a smooth user experience.
 
-Comprehensive Unit Testing: Employing Vitest, the application's codebase is thoroughly tested to maintain reliability and prevent regressions.
-
+•	Comprehensive Unit Testing: Employing Vitest, the application's codebase is thoroughly tested to maintain reliability and prevent regressions.
 
 Getting Started:
 
-To experience the Interactive Banner Design Frontend locally, follow these steps:
+•	To experience the Interactive Banner Design Frontend locally, follow these steps:
 
-Clone the Repository: 
+•	Clone the Repository:
 
-git clone https://github.com/jayalloyd/Outreachy-mediawiki-Banner-App
+•	git clone https://github.com/jayalloyd/Outreachy-mediawiki-Banner-App
 
-cd Outreachy-mediawiki-Banner-App
+•	cd Outreachy-mediawiki-Banner-App
 
-npm install
+•	npm install
 
-npm run dev   # Start development server
+•	npm run dev # Start development server
 
+•	This command will launch the application in your default web browser, allowing you to begin designing interactive banners.
 
- This command will launch the application in your default web browser, allowing you to begin designing interactive banners. 
- 
- 
- Project Structure:
+Project Structure:
 
-src/: Contains the main application source code.
+•	src/: Contains the main application source code.
 
-assets/: Images, icons, and other static assets.
+•	assets/: Images, icons, and other static assets.
 
-public/: Static files served directly by the browser.
+•	public/: Static files served directly by the browser.
 
-tests/: Unit and integration tests
+•	tests/: Unit and integration tests
 
-Dependencies:
+Dependencies
 
-react: Core React library for building UI components.
+•	react: Core React library for building UI components.
 
-bootstrap: CSS framework for responsive design.
+•	bootstrap: CSS framework for responsive design.
 
-html2Canvas
+•	html2Canvas
 
-vitest: Unit testing framework.
-
-Scripts:
-
-npm run dev: Starts the development server.
-
-npm run build: Builds the production-ready application.
-
-npm run test: Runs unit tests.
-
+•	vitest: Unit testing framework.
 
 
 # React + Vite

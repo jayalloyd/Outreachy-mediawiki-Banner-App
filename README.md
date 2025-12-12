@@ -2,7 +2,7 @@ Interactive Banner Design
 
 This project (microtask for T388234 - https://phabricator.wikimedia.org/T388248), developed as part of the Outreachy Application Contribution Period, provides a robust and user-friendly frontend web application for designing interactive banners. Leveraging modern web technologies, this application empowers users to create visually appealing and dynamic banners with ease.
 
-Live Demo: https://outreachy-mediawiki-banner-app-pearl.vercel.app/
+Live Demo: https://jayalloyd.github.io/Outreachy-mediawiki-Banner-App/
 
 🖼️ Screenshots
 

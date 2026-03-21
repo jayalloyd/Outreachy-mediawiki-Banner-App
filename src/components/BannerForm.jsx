@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import  { useRef } from 'react';
+
 import html2canvas from 'html2canvas';
 import Banner from "./Banner";
 import BannerControls from "./BannerControls";

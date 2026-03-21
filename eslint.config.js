@@ -9,7 +9,11 @@ export default [
     files: ['**/*.{js,jsx}'],
     languageOptions: {
       ecmaVersion: 2020,
-      globals: globals.browser,
+      // Merging browser globals with vitest globals
+      globals: {
+        ...globals.browser,
+        ...globals.vitest, // This fixes the 'describe/test/expect' errors
+      },
       parserOptions: {
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
@@ -23,6 +27,8 @@ export default [
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
+      // This rule stays as you had it, but remember to remove 
+      // truly unused hooks like 'useRef' in BannerForm.jsx!
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
       'react-refresh/only-export-components': [
         'warn',
